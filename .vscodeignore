@@ -4,4 +4,10 @@ src/**
 .gitignore
 .eslintrc.json
 tsconfig.json
+webpack.config.js
+.github/**
+node_modules/**
+*.vsix
 *.md
+!README.md
+!CHANGELOG.md
