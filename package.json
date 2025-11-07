@@ -3,7 +3,7 @@
   "displayName": "SQL Server Profiler",
   "description": "SQL Server profiling tool using Extended Events - replacement for Azure Data Studio profiler",
   "version": "0.2.0",
-  "publisher": "your-publisher-name",
+  "publisher": "coopdigity-inc",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -274,7 +274,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/vscode-mssql-profiler.git"
+    "url": "https://github.com/coopdigity/vscode-mssql-profiler.git"
   },
   "license": "GPL-3.0"
 }
