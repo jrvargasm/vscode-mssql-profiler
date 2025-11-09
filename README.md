@@ -2,7 +2,10 @@
 
 A modern SQL Server profiling extension for Visual Studio Code using Extended Events (XEvents). This extension provides a complete replacement for the Azure Data Studio profiler that is being deprecated.
 
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/coopdigity-inc.vscode-mssql-profiler?label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=coopdigity-inc.vscode-mssql-profiler)
 ![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/coopdigity-inc.vscode-mssql-profiler)](https://marketplace.visualstudio.com/items?itemName=coopdigity-inc.vscode-mssql-profiler)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/coopdigity-inc.vscode-mssql-profiler)](https://marketplace.visualstudio.com/items?itemName=coopdigity-inc.vscode-mssql-profiler)
 
 ## Overview
 
@@ -77,9 +80,18 @@ SQL Server Profiler for VS Code brings powerful database profiling capabilities 
 
 ## Installation
 
-### From VSIX (Recommended for Development)
+### From VS Code Marketplace (Recommended)
 
-1. Download or build the `.vsix` file
+1. Open VS Code
+2. Go to Extensions view (Ctrl+Shift+X / Cmd+Shift+X)
+3. Search for "SQL Server Profiler"
+4. Click "Install"
+
+Or install directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=coopdigity-inc.vscode-mssql-profiler)
+
+### From VSIX
+
+1. Download the `.vsix` file from the [GitHub Releases](https://github.com/yourusername/vscode-mssql-profiler/releases)
 2. Open VS Code
 3. Go to Extensions view (Ctrl+Shift+X / Cmd+Shift+X)
 4. Click the "..." menu → "Install from VSIX..."
