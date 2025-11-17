@@ -48,14 +48,13 @@ jobs:
 
     - name: Upload to release (on release only)
       if: github.event_name == 'release'
-      uses: actions/upload-release-asset@v1
+      run: |
+        # Find the .vsix file (there should only be one after package)
+        VSIX_FILE=$(ls *.vsix | head -1)
+        echo "Found VSIX file: $VSIX_FILE"
+        gh release upload ${{ github.event.release.tag_name }} "$VSIX_FILE"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ github.event.release.upload_url }}
-        asset_path: ./vscode-mssql-profiler-0.2.0.vsix
-        asset_name: vscode-mssql-profiler-${{ github.event.release.tag_name }}.vsix
-        asset_content_type: application/octet-stream
 
   test:
     runs-on: ${{ matrix.os }}
