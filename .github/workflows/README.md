@@ -276,8 +276,8 @@ strategy:
 Add to README.md:
 
 ```markdown
-![Build Status](https://github.com/yourusername/vscode-mssql-profiler/workflows/Build%20and%20Package/badge.svg)
-![Publish Status](https://github.com/yourusername/vscode-mssql-profiler/workflows/Publish%20to%20VS%20Code%20Marketplace/badge.svg)
+![Build Status](https://github.com/coopdigity/vscode-mssql-profiler/workflows/Build%20and%20Package/badge.svg)
+![Publish Status](https://github.com/coopdigity/vscode-mssql-profiler/workflows/Publish%20to%20VS%20Code%20Marketplace/badge.svg)
 ```
 
 ## Resources

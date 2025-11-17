@@ -91,7 +91,7 @@ Or install directly from the [VS Code Marketplace](https://marketplace.visualstu
 
 ### From VSIX
 
-1. Download the `.vsix` file from the [GitHub Releases](https://github.com/yourusername/vscode-mssql-profiler/releases)
+1. Download the `.vsix` file from the [GitHub Releases](https://github.com/coopdigity/vscode-mssql-profiler/releases)
 2. Open VS Code
 3. Go to Extensions view (Ctrl+Shift+X / Cmd+Shift+X)
 4. Click the "..." menu → "Install from VSIX..."
@@ -152,7 +152,7 @@ See [Building from Source](#building-from-source) below.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vscode-mssql-profiler.git
+git clone https://github.com/coopdigity/vscode-mssql-profiler.git
 cd vscode-mssql_profiler
 
 # Install dependencies
@@ -164,7 +164,7 @@ npm run compile
 # Package the extension
 npx vsce package
 
-# This creates vscode-mssql-profiler-0.1.0.vsix
+# This creates vscode-mssql-profiler-X.Y.Z.vsix
 ```
 
 ### Development Workflow
@@ -348,8 +348,8 @@ See the [LICENSE](LICENSE) file for full details.
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/vscode-mssql-profiler/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/vscode-mssql-profiler/discussions)
+- **Issues**: [GitHub Issues](https://github.com/coopdigity/vscode-mssql-profiler/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/coopdigity/vscode-mssql-profiler/discussions)
 - **Documentation**: See `PROFILER_FEATURE.md` for implementation details
 
 ## Roadmap
